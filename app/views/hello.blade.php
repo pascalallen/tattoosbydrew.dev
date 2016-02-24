@@ -152,14 +152,14 @@
                 <h2>Contact Drew</h2>
                 <p>Call or email to schedule an appointment for an amazing tattoo today!</p>
                 <p>(210) 763-0444</p>
-                <p><a href="mailto:drew@drew.com">drew@drew.com</a>
+                <p><a href="mailto:andrewdelaf@icloud.com">andrewdelaf@icloud.com</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
                         <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                     </li>
                     <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
+                        <a href="https://www.instagram.com/drewtattoo13/" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
                     </li>
                     <li>
                         <a href="https://www.facebook.com/drew.delafuente1" class="btn btn-default btn-lg"><i class="fa fa-facebook-square fa-fw"></i> <span class="network-name">Facebook</span></a>
