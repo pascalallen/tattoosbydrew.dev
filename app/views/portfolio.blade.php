@@ -3,6 +3,10 @@
 <?php
 	$dir = "img/*.JPG";
 	$images = glob($dir);
+	$perPage = 8;
+	$currentPage = Input::get('page') - 1;
+	$pagedData = array_slice($images, $currentPage * $perPage, $perPage);
+	$images = Paginator::make($pagedData, count($images), $perPage);
 ?>
 
 @section('top-script')
@@ -37,7 +41,7 @@
 		</div>
 	</div>
 
-	{{-- {{{ $images->links(); }}} --}}
+	{{ $images->links() }}
 
 @stop
 
