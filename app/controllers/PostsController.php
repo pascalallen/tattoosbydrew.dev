@@ -14,7 +14,7 @@ class PostsController extends \BaseController {
 		if ($search) {
 			$query = Post::with('user')->where('title', 'LIKE', '%' . $search . '%')->orWhere('body', 'LIKE', '%' . $search . '%');
 		} else {
-			// $query = Post::with('user');
+			$query = Post::with('user');
 		}
 
 		$posts = $query->orderBy('created_at', 'desc')->paginate(8);
