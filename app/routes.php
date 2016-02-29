@@ -14,3 +14,7 @@
 Route::get('/', 'HomeController@showWelcome');
 
 Route::get('portfolio', 'HomeController@showPortfolio');
+
+Route::get('/posts/edit-image/{id}', 'PostsController@editImage');
+
+Route::resource('posts', 'PostsController');
