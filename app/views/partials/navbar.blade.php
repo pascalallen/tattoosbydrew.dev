@@ -9,7 +9,8 @@
                 <i class="fa fa-anchor"></i>  <span class="light">Drew</span> Tattoo
             </a>
         </div>
-        @if(Request::url() === 'http://tattoosbydrew.dev/')
+
+        @if(Request::url() === 'http://tattoosbydrew.dev') <!-- Change to 'http://drewtattoo13.com' -->
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
